@@ -30,7 +30,7 @@ For Linux (substitute `apt` for your package manager):
 ```bash
 sudo apt install git-lfs
 
-git clone git@github.com:apple/corenet.git
+git clone git@github.com:aquaticcalf/corenet.git
 cd corenet
 git lfs install
 git lfs pull
@@ -50,7 +50,7 @@ For macOS, assuming you use Homebrew:
 ```bash
 brew install git-lfs
 
-git clone git@github.com:apple/corenet.git
+git clone git@github.com:aquaticcalf/corenet.git
 cd corenet
 cd \$(pwd -P)  # See the note below.
 git lfs install
