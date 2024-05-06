@@ -1,41 +1,17 @@
+> [!important]  
+> This is my fork of [`apple/corenet`](https://github.com/apple/corenet).  Any changes made here are just me playing around with the code and not intended to contribute to the original project. They may be experimental, broken, or incomplete, so use at your own risk!
+>
+> Additionally, please note that this fork is not affiliated with Apple Inc. or any of its subsidiaries. I am not an Apple employee, and any modifications made here do not reflect the opinions or policies of Apple. This is a personal project, and I am solely responsible for its content.
+
 # CoreNet: A library for training deep neural networks
 
 CoreNet is a deep neural network toolkit that allows researchers and engineers to train standard and novel small and large-scale models for variety of tasks, including foundation models (e.g., CLIP and LLM), object classification, object detection, and semantic segmentation.
 
 ## Table of contents
 
-   * [What's new?](#whats-new)
-   * [Research efforts at Apple using CoreNet](#research-efforts-at-apple-using-corenet)
    * [Installation](#installation)
    * [Directory Structure](#directory-structure)
-   * [Maintainers](#maintainers)
-   * [Contributing to CoreNet](#contributing-to-corenet)
-   * [License](#license)
    * [Relationship with CVNets](#relationship-with-cvnets)
-   * [Citation](#citation)
-
-## What's new?
-
-   * ***April 2024***: Version 0.1.0 of the CoreNet library includes
-      * OpenELM
-      * CatLIP
-      * MLX examples
-
-## Research efforts at Apple using CoreNet
-
-Below is the list of publications from Apple that uses CoreNet. Also, training and evaluation recipes, as well as links to pre-trained models, can be found inside the [projects](./projects/) folder. Please refer to it for further details.
-
-   * [OpenELM: An Efficient Language Model Family with Open Training and Inference Framework](https://arxiv.org/abs/2404.14619)
-   * [CatLIP: CLIP-level Visual Recognition Accuracy with 2.7x Faster Pre-training on Web-scale Image-Text Data](https://arxiv.org/abs/2404.15653)
-   * [Reinforce Data, Multiply Impact: Improved Model Accuracy and Robustness with Dataset Reinforcement](https://arxiv.org/abs/2303.08983)
-   * [CLIP meets Model Zoo Experts: Pseudo-Supervision for Visual Enhancement](https://arxiv.org/abs/2310.14108)
-   * [FastVit: A Fast Hybrid Vision Transformer using Structural Reparameterization](https://arxiv.org/abs/2303.14189)
-   * [Bytes Are All You Need: Transformers Operating Directly on File Bytes](https://arxiv.org/abs/2306.00238)
-   * [MobileOne: An Improved One millisecond Mobile Backbone](https://arxiv.org/abs/2206.04040)
-   * [RangeAugment: Efficient Online Augmentation with Range Learning](https://arxiv.org/abs/2212.10553)
-   * [Separable Self-attention for Mobile Vision Transformers (MobileViTv2)](https://arxiv.org/abs/2206.02680)
-   * [CVNets: High performance library for Computer Vision, ACM MM'22](https://arxiv.org/abs/2206.02002)
-   * [MobileViT: Light-weight, General-purpose, and Mobile-friendly Vision Transformer, ICLR'22](https://arxiv.org/abs/2110.02178)
 
 ## Installation
 
@@ -231,37 +207,6 @@ classes corresponding to the names that are referenced in the YAML configuration
 </tbody>
 </table>
 
-## Maintainers
-
-This code is developed by <a href="https://sacmehta.github.io" target="_blank">Sachin</a>, and is now maintained by Sachin, <a href="https://mchorton.com" target="_blank">Maxwell Horton</a>, <a href="https://www.mohammad.pro" target="_blank">Mohammad Sekhavat</a>, and Yanzi Jin.
-
-### Previous Maintainers
-* <a href="https://farzadab.github.io" target="_blank">Farzad</a>
-
-## Contributing to CoreNet
-
-We welcome PRs from the community! You can find information about contributing to CoreNet in our [contributing](CONTRIBUTING.md) document. 
-
-Please remember to follow our [Code of Conduct](CODE_OF_CONDUCT.md).
-
-## License
-
-For license details, see [LICENSE](LICENSE). 
-
 ## Relationship with CVNets
 
 CoreNet evolved from CVNets, to encompass a broader range of applications beyond computer vision. Its expansion facilitated the training of foundational models, including LLMs.
-
-## Citation
-
-If you find our work useful, please cite the following paper:
-
-``` 
-@inproceedings{mehta2022cvnets, 
-     author = {Mehta, Sachin and Abdolhosseini, Farzad and Rastegari, Mohammad}, 
-     title = {CVNets: High Performance Library for Computer Vision}, 
-     year = {2022}, 
-     booktitle = {Proceedings of the 30th ACM International Conference on Multimedia}, 
-     series = {MM '22} 
-}
-```
